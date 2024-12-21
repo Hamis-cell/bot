@@ -1,7 +1,7 @@
 import telebot
 from bot_logic import gen_pass, gen_emodji, flip_coin 
 
-bot = telebot.TeleBot("7786003316:AAEIGcb2wFscbofdmELthxQVnpEMM5S-yuc")
+bot = telebot.TeleBot("")
     
 @bot.message_handler(commands=['start'])
 def send_welcome(message):
